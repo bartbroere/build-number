@@ -1,3 +1,5 @@
+const core = require('@actions/core');
+
 //Trying to avoid any npm installs or anything that takes extra time...
 const   https = require('https'),
         zlib = require('zlib'),
